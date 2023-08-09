@@ -11,7 +11,7 @@ import MDEditor from '@uiw/react-md-editor'
 import noImage from 'assets/no-image.png'
 import LoadingCard from 'components/Loading/LoadingCard'
 import { useStateContext } from 'context/Context'
-import useSingleAnimeFetch from 'hooks/useSingleAnimeSearch'
+import useSingleAnimeFetch from 'hooks/useSingleAnimeFetch'
 import { useParams } from 'react-router-dom'
 
 const Details = () => {
