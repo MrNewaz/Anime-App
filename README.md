@@ -1,4 +1,4 @@
-# Anime App || [[Live Demo](https://julo-movies.netlify.app/)]
+# Anime App || [[Live Demo](https://julo-animes.netlify.app/)]
 
 ![home_page](screenshots/ss.png)
 
