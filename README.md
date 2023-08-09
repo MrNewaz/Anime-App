@@ -11,6 +11,7 @@ The below information is the guideline for developers how to setup the web app l
 
 - React.js
 - JavaScript
+- GraphQL
 - React Context API
 - React Router
 - axios
