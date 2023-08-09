@@ -65,4 +65,4 @@ npm start
 
 ## Note
 Check this design doc to get an overview of app.
-[Design Doc for Movie App](https://docs.google.com/document/d/1SecIWLkPRGfsVtVpDw3f0g4rM77FFBn-l5XUNakVn-g/edit?usp=sharing)
+[Design Doc for Anime App](https://docs.google.com/document/d/1SecIWLkPRGfsVtVpDw3f0g4rM77FFBn-l5XUNakVn-g/edit?usp=sharing)
