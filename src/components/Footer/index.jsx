@@ -12,7 +12,7 @@ const Footer = () => {
         align="center"
         sx={{ typography: { xs: 'subtitle2', sm: 'h6' } }}
       >
-        Copyright © {new Date().getFullYear()}. All rights reserved by Newaz.
+        Copyright © {new Date().getFullYear()}. All rights reserved by Saif.
       </Typography>
     </Box>
   )
