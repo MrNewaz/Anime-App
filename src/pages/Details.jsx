@@ -1,4 +1,12 @@
-import { Box, Button, Chip, Container, Paper, Typography } from '@mui/material'
+import {
+  Alert,
+  Box,
+  Button,
+  Chip,
+  Container,
+  Paper,
+  Typography,
+} from '@mui/material'
 import MDEditor from '@uiw/react-md-editor'
 import noImage from 'assets/no-image.png'
 import LoadingCard from 'components/Loading/LoadingCard'
@@ -109,6 +117,13 @@ const Details = () => {
       >
         {animeExists(id) ? 'Already added to list!' : 'Add to List'}
       </Button>
+      <Box
+        sx={{
+          my: 6,
+        }}
+      >
+        {error && <Alert severity="error">Unexpected error ocurred</Alert>}
+      </Box>
     </Container>
   )
 }
