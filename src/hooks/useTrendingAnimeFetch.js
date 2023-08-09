@@ -86,7 +86,6 @@ export default function useTrendingAnimeFetch(pageNumber) {
       .then((response) => {
         setAnimes(response.data.data.Page.media)
         setLoading(false)
-        console.log(response.data.data.Page)
         setPageInfo(response.data.data.Page.pageInfo)
       })
       .catch((e) => {

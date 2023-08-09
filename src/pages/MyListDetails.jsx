@@ -7,11 +7,7 @@ import { useNavigate, useParams } from 'react-router-dom'
 const MyListDetails = () => {
   const { id } = useParams()
   const { getAnimeById, removeFromList } = useStateContext()
-
   const anime = getAnimeById(id)
-
-  console.log(anime)
-
   const navigate = useNavigate()
 
   const handleRemove = () => {

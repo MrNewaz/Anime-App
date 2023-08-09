@@ -169,7 +169,6 @@ export default function useSingleAnimeFetch(id) {
       .then((response) => {
         setAnime(response.data.data.Media)
         setLoading(false)
-        console.log(response.data.data.Media)
       })
       .catch((e) => {
         setError(true)
